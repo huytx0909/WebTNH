@@ -66,7 +66,7 @@ var typewriter = new Typewriter(line, {
     loop: true
 });
 
-typewriter.typeString('Hello World!')
+typewriter.typeString('Hello there!')
     .pauseFor(2500)
     .deleteAll()
     .pauseFor(1000)
@@ -76,7 +76,7 @@ var typewriter1 = new Typewriter(line1, {
     loop: true
 });
 
-typewriter1.typeString('Olaaaaa')
+typewriter1.typeString('Nice to meet you')
     .pauseFor(2500)
     .deleteAll()
     .pauseFor(1000)
@@ -86,7 +86,7 @@ var typewriter2 = new Typewriter(line2, {
     loop: true
 });
 
-typewriter2.typeString('Amigooos')
+typewriter2.typeString('Im eager to learn')
     .pauseFor(2500)
     .deleteAll()
     .pauseFor(1000)
@@ -94,45 +94,3 @@ typewriter2.typeString('Amigooos')
 }
 
 
-
-// var words = {
-// 	first : "FIRST LINE",
-// 	second : "SECOND LINE", 
-// 	third : "THIRD LINE"
-// };
-
-// 	// var h1 = document.getElementById("home-h1");
-	
-
-// 	var firstLine = words.first;
-// 	var secondLine = words.second;
-// 	var thirdLine = words.third;
-// 	var speed = 80;
-	
-// var i = 0;
-// function runText() {
-// 	if (i < firstLine.length) {
-//     document.getElementById("home-h1").innerHTML += firstLine.charAt(i);
-//     i++;
-//     setTimeout(runText, speed);
-//   }
-// }
-
-// var x = 0;
-// function runText1 () {
-// 	if (x < secondLine.length) {
-//     document.getElementById("home-h2").innerHTML += secondLine.charAt(x);
-//     x++;
-//     setTimeout(runText1, speed);
-//   }
-// }
-
-
-// var y = 0;
-// function runText2 () {
-// 	if (y < thirdLine.length) {
-//     document.getElementById("home-h2-1").innerHTML += thirdLine.charAt(y);
-//     y++;
-//     setTimeout(runText2, speed);
-//   }
-// }
